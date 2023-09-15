@@ -37,7 +37,7 @@ for x in _files:
     znach=ODS1.iloc[:,2].unique()
     for item in znach:
         if item.lower()!="активы" and item.lower()!="пассивы" and item.lower()!="чистая прибыль" and item.lower()!="выручка":
-            _mistakes.append("Неподходящее значения в третьем столбце")
+            _mistakes.append("Неподходящее значение в третьем столбце")
             break
     znach=ODS1.iloc[:,1]
     for item in znach:
